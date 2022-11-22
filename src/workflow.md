@@ -15,5 +15,7 @@ Copy qihMT maps (masked and thresholded) to participant folders
 coreg_ihmt-T1.sh
 
 ## Step 2: Apply MRS voxel mask to coregistered qihMT map and calculate mean qihMT within mask
+Creates 3 masks and extracts data from each: white matter only, whole MRS voxel, and whole MRS voxel excluding CSF (GM+WM)
+
 mrs_mask_2_ihmt.sh
 
