@@ -13,7 +13,7 @@
 export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=40
 module load ants/2.5.0
 module load fsl/6.0.0-bin
-module load
+module load afni/1.4.4
 module load openmpi/4.1.1-gnu
 
 export WD=/work/lebel_lab/meaghan/multimodal/data
